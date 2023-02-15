@@ -1,0 +1,101 @@
+.catalog__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 51px;
+    width: 100vw;
+    .catalog__list {
+      display: flex;
+      table-layout: fixed;
+      flex-direction: column;
+      .catalog__item {
+        display: table-cell;
+        width: auto;
+        text-align: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-feature-settings: "kern" off;
+        color: #bcbcbc;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: 36px;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+          color: white;
+        }
+        &:active {
+          position: relative;
+          top: 2px;
+        }
+        @media screen and (max-width: 800px) {
+          font-size: 36px;
+          line-height: 40px;
+        }
+        @media screen and (max-width: 500px) {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 30px;
+          text-align: center;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          font-feature-settings: "kern" off;
+        }
+      }
+      .catalog__item-main {
+        display: table-cell;
+        width: auto;
+        text-align: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-feature-settings: "kern" off;
+        color: #bcbcbc;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+          color: white;
+        }
+        &:active {
+          position: relative;
+          top: 2px;
+        }
+        @media screen and (max-width: 800px) {
+          font-size: 36px;
+          line-height: 40px;
+        }
+        @media screen and (max-width: 500px) {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 30px;
+          text-align: center;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          font-feature-settings: "kern" off;
+        }
+      }
+    }
+  }

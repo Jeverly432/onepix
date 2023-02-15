@@ -1,0 +1,72 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/home/homeBackground.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  @media screen and (max-width: 800px) {
+    background-size: cover;
+    background-position: 50% 100%;
+  }
+  .info__container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+    .info__logo {
+      @media screen and (max-width: 800px) {
+        width: 300px;
+        height: 100px;
+      }
+      @media screen and (max-width: 500px) {
+        width: 200px;
+        height: 60px;
+      }
+    }
+  }
+  .info__scroll {
+    position: absolute;
+    bottom: 0px;
+    .info__scroll__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .info__scroll-text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-feature-settings: "kern" off;
+        color: white;
+        margin-bottom: 20px;
+        @media screen and (max-width: 800px) {
+          margin-bottom: 15px;
+        }
+        @media screen and (max-width: 500px) {
+          margin-bottom: 10px;
+        }
+      }
+      .info__scroll-line {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        @media screen and (max-width: 800px) {
+          height: 40px;
+        }
+        @media screen and (max-width: 500px) {
+          height: 30px;
+        }
+      }
+    }
+  }
+}
